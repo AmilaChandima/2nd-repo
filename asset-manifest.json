@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Belmio_Pizza_Web/static/css/main.a71d32fd.css",
+    "main.js": "/Belmio_Pizza_Web/static/js/main.ef1f00f1.js",
+    "static/js/453.ae321ea0.chunk.js": "/Belmio_Pizza_Web/static/js/453.ae321ea0.chunk.js",
+    "static/media/hero-image.png": "/Belmio_Pizza_Web/static/media/hero-image.b8d1378591488d544004.png",
+    "static/media/story-image.jpg": "/Belmio_Pizza_Web/static/media/story-image.818a989ac22596561a89.jpg",
+    "static/media/1.jpg": "/Belmio_Pizza_Web/static/media/1.2663a8feba953602eba5.jpg",
+    "static/media/logo.jpg": "/Belmio_Pizza_Web/static/media/logo.d8493962e35847a3398f.jpg",
+    "static/media/3.jpg": "/Belmio_Pizza_Web/static/media/3.48434218882a5645bad3.jpg",
+    "static/media/4.jpg": "/Belmio_Pizza_Web/static/media/4.ff091355d19403d5a60b.jpg",
+    "static/media/2.jpg": "/Belmio_Pizza_Web/static/media/2.de6ce5616ad1a2f5bb8b.jpg",
+    "static/media/instagram_logo.jpg": "/Belmio_Pizza_Web/static/media/instagram_logo.77613e67132fbe4af1e1.jpg",
+    "index.html": "/Belmio_Pizza_Web/index.html",
+    "main.a71d32fd.css.map": "/Belmio_Pizza_Web/static/css/main.a71d32fd.css.map",
+    "main.ef1f00f1.js.map": "/Belmio_Pizza_Web/static/js/main.ef1f00f1.js.map",
+    "453.ae321ea0.chunk.js.map": "/Belmio_Pizza_Web/static/js/453.ae321ea0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a71d32fd.css",
+    "static/js/main.ef1f00f1.js"
+  ]
+}
