@@ -1,14 +1,14 @@
 import React from "react";
-import storyImage from "./assests/story-image.jpg"; // Replace with your image path.
+import storyImage from "../assests/story-image.jpg"; // Replace with your image path.
 
 function StorySection() {
   return (
     <section className="py-16 bg-white">
-      <div className="container mx-auto px-6 md:px-12 lg:px-20 flex flex-col lg:flex-row gap-8">
+      <div className="max-w-screen-xl mx-auto px-6 md:px-12 lg:px-20 flex flex-col lg:flex-row gap-8">
         {/* Left Column */}
         <div className="lg:w-1/2 mr-4">
           {/* Heading */}
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 text-left text-justify mb-6">
+          <h2 className="text-4xl font-passion md:text-4xl font-extrabold text-gray-800 mb-8">
             DISCOVER OUR <span className="text-orange-500">STORY</span>
           </h2>
 
@@ -23,7 +23,7 @@ function StorySection() {
         {/* Right Column */}
         <div className="lg:w-1/2 flex flex-col justify-start ml-5">
           {/* Description */}
-          <p className="text-gray-600 text-left text-justify leading-relaxed mb-6">
+          <p className="text-gray-600 leading-relaxed mb-6">
             Quam ultrices bibendum accumsan morbi risus iaculis tellus tellus
             molestie. Auctor eu auctor aliquam porttitor scelerisque massa
             volutpat elit, urna. Eget quis porta euismod diam justo, tempor
@@ -33,7 +33,7 @@ function StorySection() {
             sed. Nisl tincidunt cras tempus ipsum, sollicitudin vitae facilisis
             quis volutpat.
           </p>
-          <p className="text-gray-600 text-left text-justify leading-relaxed mb-8">
+          <p className="text-gray-600 leading-relaxed mb-8">
             Quam ultrices bibendum accumsan morbi risus iaculis tellus tellus
             molestie. Auctor eu auctor aliquam porttitor scelerisque massa
             volutpat elit, urna. Eget quis porta euismod diam justo, tempor
@@ -43,19 +43,19 @@ function StorySection() {
           {/* Key Details Section */}
           <div className="flex gap-8 mb-8 justify-start">
             <div>
-              <h3 className="text-xl font-bold text-gray-800 text-left text-justify">
+              <h3 className="text-xl font-bold text-gray-800">
                 SINCE <span className="text-blue-600">2015</span>
               </h3>
-              <p className="text-gray-600 text-left text-justify">
+              <p className="text-gray-600">
                 Duis cursus neque et at ipsum. Cursus urna fringilla nisl enim
                 duis cras odio.
               </p>
             </div>
             <div>
-              <h3 className="text-xl font-bold text-gray-800 text-left text-justify">
+              <h3 className="text-xl font-bold text-gray-800">
                 100K+ <span className="text-blue-600">CLIENTS</span>
               </h3>
-              <p className="text-gray-600 text-left text-justify">
+              <p className="text-gray-600">
                 Metus varius vitae habitant lorem. Porta scelerisque facilisi.
               </p>
             </div>

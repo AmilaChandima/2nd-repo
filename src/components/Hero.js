@@ -1,11 +1,11 @@
 import React from "react";
-import heroImage from "./assests/hero-image.png";
+import heroImage from "../assests/hero-image.png";
 
 const Hero = () => {
   return (
     <section
       className="relative bg-cover bg-center h-screen flex items-center pt-[64px]"
-      style={{ backgroundImage: `url(${heroImage})` }}
+      style={{ backgroundImage: `url(${heroImage})` }}  
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -39,7 +39,7 @@ const Hero = () => {
 
         {/* Left Arrow */}
         <button className="p-2 bg-black bg-opacity-60 rounded-full hover:bg-opacity-80 transition">
-        <span className="text-lg text-orange-500">←</span> {/* Arrow color set to orange */}
+          <span className="text-lg text-orange-500">←</span> {/* Arrow color set to orange */}
         </button>
 
         {/* Current Slide Indicator */}
@@ -51,7 +51,7 @@ const Hero = () => {
 
         {/* Right Arrow */}
         <button className="p-2 bg-black bg-opacity-60 rounded-full hover:bg-opacity-80 transition">
-        <span className="text-lg text-orange-500">→</span> {/* Arrow color set to orange */}
+          <span className="text-lg text-orange-500">→</span> {/* Arrow color set to orange */}
         </button>
 
       </div>

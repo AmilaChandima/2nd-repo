@@ -1,15 +1,22 @@
 import './App.css';
-import Footer from './Footer';
-import StorySection from './StorySection';
-import Hero from './Hero';
+import NavBar from './components/NavBar';
+import StorySection from './components/StorySection';
+
+import Footer from './components/Footer';
+import Hero from './components/Hero';
 
 function App() {
   return (
-    <div className="App">
-    <Hero/>
-    <StorySection/>
-    <Footer></Footer>
-    </div>
+    <>
+      <NavBar />
+      {/* Add padding to avoid content overlapping the navbar */}
+      <div className="pt-20">
+        <Hero/>
+        <StorySection />
+      
+        <Footer />
+      </div>
+    </>
   );
 }
 
