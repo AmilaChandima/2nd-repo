@@ -4,7 +4,7 @@ import instaLogo from "../assests/instagram_logo.jpg";
 function Footer(){
   return(
     
-    <footer class="bg-black ">
+    <footer class="bg-black px-32">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:pt-8 lg:pb-4">
             <div class="md:flex md:justify-between">
               <div class="mb-6 md:mb-0">

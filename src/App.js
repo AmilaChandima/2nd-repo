@@ -9,11 +9,13 @@ function App() {
   return (
     <>
       <NavBar />
-      {/* Add padding to avoid content overlapping the navbar */}
-      <div className="pt-20">
+      
+      <div className="pt-1">
         <Hero/>
         <StorySection />
-        <Services/>
+
+        <Services />
+
         <Footer />
       </div>
     </>
