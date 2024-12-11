@@ -13,7 +13,9 @@ function App() {
       <div className="pt-1">
         <Hero/>
         <StorySection />
+
         <Services />
+
         <Footer />
       </div>
     </>
