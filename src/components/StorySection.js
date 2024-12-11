@@ -1,5 +1,5 @@
 import React from "react";
-import storyImage from "../assests/story-image.jpg"; // Replace with your image path.
+import storyImage from "../assests/story-image.jpg";
 
 function StorySection() {
   return (
@@ -24,39 +24,28 @@ function StorySection() {
         <div className="lg:w-1/2 flex flex-col justify-start ml-5">
           {/* Description */}
           <p className="text-gray-600 leading-relaxed mb-6">
-            Quam ultrices bibendum accumsan morbi risus iaculis tellus tellus
-            molestie. Auctor eu auctor aliquam porttitor scelerisque massa
-            volutpat elit, urna. Eget quis porta euismod diam justo, tempor
-            vehicula. Egestas turpis vel non diam nunc amet, a risus diam.
-            Ultrices ac blandit sem nec nulla nisi habitasse. Aliquet
-            pellentesque potenti massa eget pellentesque. Feugiat turpis in a
-            sed. Nisl tincidunt cras tempus ipsum, sollicitudin vitae facilisis
-            quis volutpat.
+          Belmio Pizza, founded in 2016, is a vibrant and beloved pizza restaurant nestled in the heart of Thalawathugoda. Known for its authentic flavors and fresh ingredients, Belmio Pizza has become a go-to destination for pizza lovers seeking a blend of tradition and innovation. With a commitment to quality and customer satisfaction, the restaurant continues to serve delicious, handcrafted pizzas that bring people together, creating memorable dining experiences for families and friends.
           </p>
           <p className="text-gray-600 leading-relaxed mb-8">
-            Quam ultrices bibendum accumsan morbi risus iaculis tellus tellus
-            molestie. Auctor eu auctor aliquam porttitor scelerisque massa
-            volutpat elit, urna. Eget quis porta euismod diam justo, tempor
-            vehicula.
+          Belmio Pizza is now expanding its reach by embracing technology to enhance customer convenience and engagement. With plans to launch its first e-commerce platform, the restaurant aims to make online ordering and promotions more accessible to its growing customer base.
           </p>
 
-          {/* Key Details Section */}
+          {/* Details Section */}
           <div className="flex gap-8 mb-8 justify-start">
             <div>
               <h3 className="text-xl font-bold text-gray-800">
                 SINCE <span className="text-blue-600">2015</span>
               </h3>
               <p className="text-gray-600">
-                Duis cursus neque et at ipsum. Cursus urna fringilla nisl enim
-                duis cras odio.
+              Serving quality, tradition, and unforgettable flavors with every slice
               </p>
             </div>
             <div>
               <h3 className="text-xl font-bold text-gray-800">
-                100K+ <span className="text-blue-600">CLIENTS</span>
+                10K+ <span className="text-blue-600">CLIENTS</span>
               </h3>
               <p className="text-gray-600">
-                Metus varius vitae habitant lorem. Porta scelerisque facilisi.
+              Trusted by over 10,000 happy clients who love our delicious pizzas
               </p>
             </div>
           </div>

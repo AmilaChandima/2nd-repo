@@ -4,50 +4,51 @@ import myLogo from "../assests/logo.jpg";
 const Navbar = () => {
   return (
     <div>
-      {/* Combined Slogan and Navbar, fixed to the top */}
+
       <div className="fixed top-0 left-0 w-full z-50 bg-basebg text-letter">
-        {/* Top Slogan Bar */}
+        {/* Slogan Bar */}
         <div className="bg-slogan text-center py-0.2 text-sm font-semibold">
           WELCOME TO BELMIO PIZZA SHOP
         </div>
 
-        {/* Main Navigation Bar */}
+        {/*  Navigation Bar */}
         <nav className="text-letter py-2 font-roboto">
           <div className="max-w-screen-xl mx-auto flex items-center justify-between px-24">
             {/* Logo */}
             <div className="flex items-center space-x-4">
               <img
-                src={myLogo} // Your logo path
+                src={myLogo}
                 alt="Logo"
                 className="h-12 w-12 rounded-full object-cover"
               />
             </div>
 
-            {/* Navigation Links */}
-            <ul className="hidden md:flex items-center space-x-24 text-xs">
+            {/* NavBar Links */}
+            <ul class="hidden md:flex items-center space-x-24 text-xs">
               <li>
-                <a href="#" className="hover:text-gray-300">
+                <a href="#" class="hover:text-orange-300 ">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-300">
-                  Menu <span className="inline-block">&#9662;</span>
+                <a href="#" class="hover:text-orange-300 ">
+                  Menu <span class="inline-block">&#9662;</span>
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-300">
-                  Service <span className="inline-block">&#9662;</span>
+                <a href="#" class="hover:text-orange-300 ">
+                  Service <span class="inline-block">&#9662;</span>
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-gray-300">
+                <a href="#" class="hover:text-orange-300 ">
                   About Us
                 </a>
               </li>
             </ul>
 
-            {/* Right Section */}
+
+            {/* Right  */}
             <div className="flex items-center space-x-24 text-sm">
               {/* Cart */}
               <div className="relative">
@@ -80,7 +81,7 @@ const Navbar = () => {
 
                 <button
                   type="button"
-                  className="text-white bg-gradient-to-br from-pink-500 to-orange-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-sm  px-5 py-2 text-center"
+                  className="text-white bg-gradient-to-br from-pink-500 to-orange-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-sm  px-5 py-2 text-center text-nowrap"
                 >
                   Sign Up Now!
                 </button>
