@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";  // Import Link from react-router-dom
-import myLogo from "../assests/logo.jpg";   // Fixed typo in 'assets' folder path
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import myLogo from "../assests/logo.jpg"; // Fixed typo in 'assets' folder path
 
 const Navbar = () => {
   return (
@@ -11,7 +11,7 @@ const Navbar = () => {
           WELCOME TO BELMIO PIZZA SHOP
         </div>
 
-        {/*  Navigation Bar */}
+        {/* Navigation Bar */}
         <nav className="text-letter py-2 font-roboto">
           <div className="max-w-screen-xl mx-auto flex items-center justify-between px-24">
             {/* Logo */}
@@ -36,22 +36,22 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/Ser" className="hover:text-orange-300">
+                <Link to="/service" className="hover:text-orange-300">
                   Service <span className="inline-block">&#9662;</span>
                 </Link>
               </li>
               <li>
-                <Link to="fast" className="hover:text-orange-300">
+                <Link to="/about" className="hover:text-orange-300">
                   About Us
                 </Link>
               </li>
             </ul>
 
-            {/* Right  */}
+            {/* Right Section */}
             <div className="flex items-center space-x-24 text-sm">
               {/* Cart */}
               <div className="relative">
-                <a href="#" className="text-white hover:text-gray-300">
+                <Link to="/cart" className="text-white hover:text-gray-300">
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -66,7 +66,7 @@ const Navbar = () => {
                       d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.38 2.4a1 1 0 00-.12.6v1a1 1 0 001 1h12a1 1 0 001-1v-1a1 1 0 00-.12-.6L17 13M7 13l4-8M17 13l-4-8M6 21h.01M18 21h.01"
                     ></path>
                   </svg>
-                </a>
+                </Link>
                 <span className="absolute -top-2 -right-2 bg-white text-black text-xs font-bold rounded-full w-4 h-4 flex items-center justify-center border-2 border-gray-300">
                   2
                 </span>
@@ -80,7 +80,7 @@ const Navbar = () => {
 
                 <button
                   type="button"
-                  className="text-white bg-gradient-to-br from-pink-500 to-orange-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-sm  px-5 py-2 text-center text-nowrap"
+                  className="text-white bg-gradient-to-br from-pink-500 to-orange-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-sm px-5 py-2 text-center text-nowrap"
                 >
                   Sign Up Now!
                 </button>

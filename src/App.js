@@ -9,27 +9,37 @@ import Services from './components/Services';
 import Ser from './Pages/Serpage';
 import HeroAndStorySection from './Pages/fastfood';
 
-
 function App() {
   return (
     <Router>
-      <NavBar />  {/* This will appear on all pages */}
+      {/* Navbar will appear on all pages */}
+      <NavBar />
+      
       <Routes>
         {/* Route for Home Page */}
-        <Route path="/" element={
-          <>
-            <Hero />
-            <StorySection />
-            <Services />
-          </>
-        } />
+        <Route 
+          path="/" 
+          element={
+            <>
+              <Hero />
+              <StorySection />
+              <Services />
+            </>
+          } 
+        />
 
         {/* Route for Menu Page */}
-        <Route path="/menu" element={<MenuPage />} /> {/* This will render the Menu page when the route is accessed */}
-        <Route path="/Ser" element={<Ser />} /> 
+        <Route path="/menu" element={<MenuPage />} />
+
+        {/* Route for Service Page */}
+        <Route path="/Ser" element={<Ser />} />
+
+        {/* Route for Fast Food Page */}
         <Route path="/fast" element={<HeroAndStorySection />} />
       </Routes>
-      <Footer />  {/* Footer will also appear on all pages */}
+
+      {/* Footer will appear on all pages */}
+      <Footer />
     </Router>
   );
 }
